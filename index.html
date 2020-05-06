@@ -3,8 +3,218 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
   </head>
+  <style>
+    body {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h1, h2 {
+      font-family: Caveat Brush;
+    }
+    h3 {
+      font-family: Caveat Brush;
+      font-size: 24px;
+    }
+    span, li {
+      font-size: 18px;
+    }
+  </style>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <article>
+        <div class="page" style="border-color: midnightblue;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <div class="avatar-wrapper">
+                  <img class="avatar" src="/photo.jpg" alt="My_photo" style="border-radius: 50%">
+                </div>
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Mickey Mouse</h1>
+                    <div class="job">legendary cartoon character</div>
+                    <ul class="contacts">
+                      <li>
+                        <a href="https://www.facebook.com/MickeyMouse/" rel="author" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                          <span>MickeyMouse</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:mickeymouse@disney.com" rel="author" class="mail">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                          <span>mickeymouse@disney.com</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://mickey.disney.com/" rel="author" class="website">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
+                          <span>https://mickey.disney.com</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Résumé</h2>
+                    <p><b>I am</b> a <a href="https://en.wikipedia.org/wiki/Animated_cartoon" class="mw-redirect" title="Animated cartoon">cartoon</a> <a href="https://en.wikipedia.org/wiki/Fictional_character" class="mw-redirect" title="Fictional character">character</a> and the <a href="https://en.wikipedia.org/wiki/Mascot" title="Mascot">mascot</a> of <a href="https://en.wikipedia.org/wiki/The_Walt_Disney_Company" title="The Walt Disney Company">The Walt Disney Company</a>. He was created by <a href="https://en.wikipedia.org/wiki/Walt_Disney" title="Walt Disney">Walt Disney</a> and <a href="https://en.wikipedia.org/wiki/Ub_Iwerks" title="Ub Iwerks">Ub Iwerks</a> at the <a href="https://en.wikipedia.org/wiki/Walt_Disney_Animation_Studios" title="Walt Disney Animation Studios">Walt Disney Studios</a> in 1928. An <a href="https://en.wikipedia.org/wiki/Anthropomorphism" title="Anthropomorphism">anthropomorphic</a> <a href="https://en.wikipedia.org/wiki/Mouse" title="Mouse">mouse</a> who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.
+                    </p>
+                    <p>In 1978, I became the first cartoon character to have a star on the <a href="https://en.wikipedia.org/wiki/Hollywood_Walk_of_Fame" title="Hollywood Walk of Fame">Hollywood Walk of Fame</a>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <section>
+                  <h3>Experience</h3>
+                  <h6>Now</h6>
+                  <ul class="timeline">
+                    <li class="highlighted">
+                      <p><em>15<sup>th</sup> May 1928 – present</em></p>
+                      <p><strong>Legendary cartoon character</strong> at <strong><a href="https://en.wikipedia.org/wiki/Walt_Disney_anthology_television_series" title="Walt Disney anthology television series">Disneyland</a></strong></p>
+                    </li>
+                  </ul>
+                  <h6>Back then</h6>
+                  <ul class="timeline">
+                    <li>
+                      <p><em>2017 –  present</em></p>
+                      <p><strong>Cartoon character</strong> at <strong><a href="https://en.wikipedia.org/wiki/Mickey_and_the_Roadster_Racers" class="mw-redirect" title="Mickey and the Roadster Racers">Mickey and the Roadster Racers</a></strong></p>
+                      <ol class="inverted">
+                        <li>
+                          <p><strong>Cartoon character</strong> at television <strong><a href="https://en.wikipedia.org/wiki/Mickey_Mouse_(TV_series)" title="Mickey Mouse (TV series)">Mickey Mouse</a></strong></p>
+                          <ul>
+                            <li>did happy many millions children</li>
+                            <li class="details">
+                              <input type="checkbox" id="project-3">
+                              <label for="project-3" class="summary">was shooted in many television series</label>
+                              <div class="labels">
+                                <a class="label" href="https://en.wikipedia.org/wiki/The_Mickey_Mouse_Club" title="The Mickey Mouse Club">The Mickey Mouse Club</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey_Mouse_Works" title="Mickey Mouse Works">Mickey Mouse Works</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Disney%27s_House_of_Mouse" class="mw-redirect" title="Disney's House of Mouse">Disney's House of Mouse</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey_Mouse_Clubhouse" title="Mickey Mouse Clubhouse">Mickey Mouse Clubhouse</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey_Mouse_(TV_series)" title="Mickey Mouse (TV series)">Mickey Mouse</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey_and_the_Roadster_Racers" class="mw-redirect" title="Mickey and the Roadster Racers">Mickey and the Roadster Racers</a>
+                              </div>
+                            </li>
+                            <li>one of the favorite cartoon characters for more children in the world ❤️</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p><em>1935–1953</em></p>
+                      <p><strong>Cartoon character</strong> of <strong>color films</strong></p>
+                      <ol class="inverted">
+                        <li>
+                          <p>first appeared animated in color in <i><a href="https://en.wikipedia.org/wiki/Parade_of_the_Award_Nominees" title="Parade of the Award Nominees">Parade of the Award Nominees</a></i> in 1932, however, the film strip was created for the <a href="https://en.wikipedia.org/wiki/5th_Academy_Awards" title="5th Academy Awards">5th Academy Awards</a> ceremony and was not released to the public. Mickey's official first color film came in 1935 with <i><a href="https://en.wikipedia.org/wiki/The_Band_Concert" title="The Band Concert">The Band Concert</a></i>.
+                          </p>
+                          <ul>
+                            <li class="details">
+                              <input type="checkbox" id="project-2">
+                              <label for="project-2" class="summary">was been shown in many short-length and full-length films</label>
+                              <div class="labels">
+                                <a class="label" href="https://en.wikipedia.org/wiki/Moving_Day_(1936_film)" title="Moving Day (1936 film)">Moving Day</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Clock_Cleaners" title="Clock Cleaners">Clock Cleaners</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Lonesome_Ghosts" title="Lonesome Ghosts">Lonesome Ghosts</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Brave_Little_Tailor" title="Brave Little Tailor">Brave Little Tailor</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/The_Pointer" title="The Pointer">The Pointer</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/The_Nifty_Nineties" title="The Nifty Nineties">The Nifty Nineties</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Lend_a_Paw" title="Lend a Paw">Lend a Paw</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Symphony_Hour" title="Symphony Hour">Symphony Hour</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Squatter%27s_Rights_(film)" class="mw-redirect" title="Squatter's Rights (film)">Squatter's Rights</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey_and_the_Seal" title="Mickey and the Seal">Mickey and the Seal</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/The_Simple_Things" title="The Simple Things">The Simple Things</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Hollywood_Party_(1934_film)" title="Hollywood Party (1934 film)">Hollywood Party</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Fantasia_(1940_film)" title="Fantasia (1940 film)">Fantasia</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Fun_and_Fancy_Free" title="Fun and Fancy Free">Fun and Fancy Free</a>
+                              </div>
+                            </li>
+                            <li>has continued published in <a href="https://en.wikipedia.org/wiki/Mickey_Mouse_(comic_book)" title="Mickey Mouse (comic book)">comics</a></li>
+                          </ul>
+                        </li> 
+                      </ol>
+                    </li>
+                    <li>
+                      <p><em>1929–1935</em></p>
+                      <p><strong>Cartoon character</strong> of <strong>black and white films</strong></p>
+                      <ol class="inverted">
+                        <li>
+                          <p>the first time in which I am turned down by Minnie in favor of Pete</p>
+                          <ul>
+                            <li>was the first time in which I wore my white gloves</li>
+                            <li class="details">
+                              <input type="checkbox" id="project-2">
+                              <label for="project-2" class="summary">was been shown in many short-length and full-length films</label>
+                              <div class="labels">
+                                <a class="label" href="https://en.wikipedia.org/wiki/Plane_Crazy" title="Plane Crazy">Plane Crazy</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/The_Karnival_Kid" title="The Karnival Kid">The Karnival Kid</a>
+                                <a class="label" href="https://en.wikipedia.org/wiki/Mickey%27s_Orphans" title="Mickey's Orphans">Mickey's Orphans</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li> 
+                      </ol>
+                    </li>
+                  </ul>
+                  <h6>Way back then</h6>
+                  <ul class="timeline">
+                    <li>
+                      <p style="font-size: 18px">Mickey Mouse was created as a replacement for <a href="https://en.wikipedia.org/wiki/Oswald_the_Lucky_Rabbit" title="Oswald the Lucky Rabbit">Oswald the Lucky Rabbit</a>, an earlier cartoon character that was created by the Disney studio but owned by <a href="https://en.wikipedia.org/wiki/Universal_Pictures" title="Universal Pictures">Universal Pictures</a>.<a href="https://en.wikipedia.org/wiki/Charles_Mintz" title="Charles Mintz"> Charles Mintz</a> served as a middleman producer between Disney and Universal through his company, Winkler Pictures, for the series of cartoons starring Oswald. Ongoing conflicts between Disney and Mintz and the revelation that several animators from the Disney studio would eventually leave to work for Mintz's company ultimately resulted in Disney cutting ties with Oswald. Among the few people who stayed at the Disney studio were animator <a href="https://en.wikipedia.org/wiki/Ub_Iwerks" title="Ub Iwerks">Ub Iwerks</a>, apprentice artist <a href="https://en.wikipedia.org/wiki/Les_Clark" title="Les Clark">Les Clark</a>, and <a href="https://en.wikipedia.org/wiki/Wilfred_Jackson" title="Wilfred Jackson">Wilfred Jackson</a>. On his train ride home from New York, Walt brainstormed ideas for a new cartoon character.</p>
+                      <p style="font-size: 18px">Mickey Mouse was conceived in secret while Disney produced the final Oswald cartoons he contractually owed Mintz. Disney asked Ub Iwerks to start drawing up new character ideas. Iwerks tried sketches of various animals, such as dogs and cats, but none of these appealed to Disney. A female cow and male horse were also rejected. They would later turn up as <a href="https://en.wikipedia.org/wiki/Clarabelle_Cow" title="Clarabelle Cow">Clarabelle Cow</a> and <a href="https://en.wikipedia.org/wiki/Horace_Horsecollar" title="Horace Horsecollar">Horace Horsecollar</a>. A male frog was also rejected. It would later show up in Iwerks' own <i><a href="https://en.wikipedia.org/wiki/Flip_the_Frog" title="Flip the Frog">Flip the Frog</a></i> series. Walt Disney got the inspiration for Mickey Mouse from a tame mouse at his desk at Laugh-O-Gram Studio in Kansas City, Missouri. In 1925, <a href="https://en.wikipedia.org/wiki/Hugh_Harman" title="Hugh Harman">Hugh Harman</a> drew some sketches of mice around a photograph of Walt Disney. These inspired Ub Iwerks to create a new mouse character for Disney."<a href="https://en.wikipedia.org/wiki/Mortimer_Mouse" class="mw-redirect" title="Mortimer Mouse">Mortimer Mouse</a>" had been Disney's original name for the character before his wife, Lillian, convinced him to change it, and ultimately Mickey Mouse came to be. The actor <a href="https://en.wikipedia.org/wiki/Mickey_Rooney" title="Mickey Rooney">Mickey Rooney</a> claimed that, during his Mickey McGuire days, he met cartoonist Walt Disney at the Warner Brothers studio, and that Disney was inspired to name Mickey Mouse after him. This claim, however, has been debunked by Disney historian Jim Korkis, since at the time of Mickey Mouse's development, Disney Studios had been located on Hyperion Avenue for several years, and Walt Disney never kept an office or other working space at Warner Brothers, having no professional relationship with Warner Brothers.</p>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="six wide column">
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small"><a href="/uk-ua" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> <a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+                </section>
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small bulleted"><span class="tag">Feature films</span><span class="tag">Short films</span><span class="tag">Television programs</span><span class="tag">Video games</span><span class="tag">Park attraction</span><span class="tag">Animator</span></p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small" style="font-size: 18px">Charismatic, heroic, scrappy, cheerful, youthful, fun-loving, childlike, selfless, bashful, mischievous, forgetful, optimistic, naïve, friendly, stubborn, lazy, adventurous, clever, cocky, impatient, polite, competitive, authoritative, energetic, big-hearted, romantic, soft-spoken. Short and slender black mouse, cream (sometimes white) face, black tail, black nose, red cotton fabric shorts with two oval buttons horizontally up front and back, yellow shoes (sometimes brown), white gloves with three slits in each glove. Actor, ajax employee, detective (comics), others vary by role</p>
+                </section>
+                <section>
+                  <h3>Likes😃</h3>
+                  <p class="tags small" style="font-size: 18px">His friends, dancing, hot dogs, sandwiches, adventures, video games, movies, cheese, holidays, music, helping others, playing with Pluto, romance, camping, sleeping, traveling</p>
+                </section>
+                <section>
+                  <h3>Dislikes😞</h3>
+                  <p class="tags small" style="font-size: 18px">Pluto causing trouble, upsetting Minnie, Donald's temper, Goofy's clumsiness, Pete, Mortimer Mouse, being called a "rat", being taken advantage of, crimes, storms, gossip, bugs, horror films, traffic, things going wrong</p>
+                </section>
+                <section>
+                  <h3>Wants</h3>
+                  <p class="tags small bulleted" style="font-size: 18px">Give happiness and joy to children</p>
+                </section>
+                <section>
+                  <h3>Articles</h3>
+                  <p style="font-size: 18px"><a href="https://www.biography.com/news/mickey-mouse-history">My biography</a></p>
+                  <p style="font-size: 18px"><a href="https://en.wikipedia.org/wiki/Mickey_Mouse">About me on Wiki</a></p>
+                  <p style="font-size: 18px"><a href="https://disney.fandom.com/wiki/Mickey_Mouse">My fundom</a></p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
